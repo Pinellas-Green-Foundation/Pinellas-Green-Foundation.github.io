@@ -1,3 +1,6 @@
 theme: jekyll-theme-minimal
 title: Pinellas Green Foundation
 description: Bookmark this to keep an eye on our project updates!
+show_downloads: false
+github:
+  is_user_page: false
