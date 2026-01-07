@@ -1,5 +1,26 @@
-# Building a Green Future
+# Pinellas Green Foundation Website
 
-![Bryan Beckman speaking about green energy for thec ity of Largo.](https://github.com/user-attachments/assets/3387113d-0621-48d2-a5b8-337cf253d169)
+Website for the Pinellas Green Foundation, supporting sustainable energy initiatives in Pinellas County, Florida.
 
-<iframe width="704" height="1251" src="https://www.youtube.com/embed/8CV4eWSkHdc" title="Trinity Presbyterian Church Charging Station" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+**Live site:** https://www.pinellasgreenfoundation.org
+
+## Theme
+
+This site uses the [Forty Jekyll Theme](https://github.com/andrewbanchich/forty-jekyll-theme) by Andrew Banchich, based on the Forty theme by HTML5 UP.
+
+## Local Development
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Then visit http://localhost:4000
+
+## Structure
+
+- `index.md` - Homepage content
+- `about.md`, `projects.md`, `get-involved.md` - Main pages (displayed as tiles)
+- `_config.yml` - Site configuration
+- `_includes/footer.html` - Custom footer override
+- `_layouts/home.html` - Custom home layout override
