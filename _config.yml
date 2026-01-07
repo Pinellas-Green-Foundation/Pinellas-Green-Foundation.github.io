@@ -1,10 +1,44 @@
-theme: jekyll-theme-minimal
+# Site settings
 title: Pinellas Green Foundation
-description: Bookmark this to keep an eye on our project updates!
-show_downloads: false
-github:
-  is_user_page: false
-foundation:
-  donate_url: /
-  subscribe_url: /
-  main_social_url: /
+subtitle: Building a Green Future
+email: contact@pinellasgreenfoundation.org
+description: "Supporting sustainable energy initiatives and environmental stewardship in Pinellas County."
+baseurl: ""
+url: "https://www.pinellasgreenfoundation.org"
+
+# Use the Forty theme as a remote theme
+remote_theme: andrewbanchich/forty-jekyll-theme
+
+# Contact info
+street_address:
+city: Pinellas County
+state: FL
+zip_code:
+country: United States
+
+# Homepage tiles - will display pages
+tiles-source: pages
+tiles-count: 6
+
+# Social media links (leave blank if not used)
+social:
+  youtube: https://www.youtube.com/@PinellasGreenFoundation
+
+# Build settings
+markdown: kramdown
+
+# Sass settings
+sass:
+  style: compressed
+
+# Plugins required for remote themes on GitHub Pages
+plugins:
+  - jekyll-remote-theme
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.md
+  - CONTRIBUTING.md
