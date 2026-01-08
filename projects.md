@@ -2,7 +2,7 @@
 layout: post
 title: Our Projects
 description: Current and completed sustainability initiatives
-image: assets/images/pic02.jpg
+image: assets/images/projects.jpeg
 nav-menu: true
 show_tile: true
 ---

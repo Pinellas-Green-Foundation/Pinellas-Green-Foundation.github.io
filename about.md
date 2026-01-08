@@ -2,7 +2,7 @@
 layout: post
 title: About Us
 description: Our mission and vision for a sustainable Pinellas County
-image: assets/images/pic01.jpg
+image: assets/images/about.jpeg
 nav-menu: true
 show_tile: true
 ---

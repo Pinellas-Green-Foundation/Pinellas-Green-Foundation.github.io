@@ -24,3 +24,10 @@ Then visit http://localhost:4000
 - `_config.yml` - Site configuration
 - `_includes/footer.html` - Custom footer override
 - `_layouts/home.html` - Custom home layout override
+- `assets/images/` - Site images
+
+## Images
+
+Page images are set via front matter (e.g., `image: assets/images/about.jpeg`).
+
+The homepage banner background must be `assets/images/banner.jpg` - this path is hardcoded in the theme's CSS.

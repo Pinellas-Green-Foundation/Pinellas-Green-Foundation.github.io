@@ -21,7 +21,7 @@ tiles-source: pages
 tiles-count: 6
 
 # Social media links (leave blank if not used)
-social:
+socials:
   youtube: https://www.youtube.com/@PinellasGreenFoundation
 
 # Build settings

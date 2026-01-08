@@ -2,7 +2,7 @@
 layout: post
 title: Get Involved
 description: Join us in building a sustainable future
-image: assets/images/pic03.jpg
+image: assets/images/get-involved.jpeg
 nav-menu: true
 show_tile: true
 ---
