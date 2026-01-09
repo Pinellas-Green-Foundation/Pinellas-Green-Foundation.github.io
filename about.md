@@ -21,3 +21,7 @@ We partner with churches, community centers, and local organizations to implemen
 - Solar energy installations
 - Energy efficiency improvements
 - Community education and outreach
+
+## Our Founder
+
+Bryan Beckman is the Founder and President of the Pinellas Green Foundation. Over the past decade, Bryan has been helping others - both personally and through his leadership role with the Suncoast Sierra Club - to save on their energy bills and reduce pollution. The Pinellas Green Foundation expands that work to have an even larger impact on the community.
