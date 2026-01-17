@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-The Pinellas Green Foundation supports sustainable energy initiatives, cost savings, and environmental stewardship throughout Pinellas County. We work with communities, churches, and local organizations to bring cheaper, cleaner energy solutions to our region.
+The Pinellas Green Foundation supports sustainable energy initiatives, cost savings, and environmental stewardship. We partner with communities to invest in clean energy solutions that reduce costs and support a sustainable future for Pinellas County.

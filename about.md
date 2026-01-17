@@ -9,9 +9,13 @@ show_tile: true
 
 The Pinellas Green Foundation is dedicated to advancing sustainable energy solutions and environmental stewardship in Pinellas County, Florida.
 
+## Our Vision
+
+Thriving communities built on affordable, sustainable energy solutions.
+
 ## Our Mission
 
-We believe that a sustainable future is built one community at a time. Our mission is to support and promote green energy initiatives that benefit local organizations, reduce environmental impact, and create a more resilient community.
+We partner with communities to invest in clean energy solutions that reduce costs and support a sustainable future for Pinellas County.
 
 ## What We Do
 
