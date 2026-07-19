@@ -8,21 +8,24 @@
 
 {% include head.html %}
 
-<body>
+<body class="is-home">
 
     {% include header.html %}
 
     <!-- Banner -->
     <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>{{ page.landing-title }}</h1>
-            </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
-                </ul>
+        <div class="inner banner-layout">
+            <img src="{{ "assets/images/logo.jpeg" | absolute_url }}" alt="{{ site.title }} logo" class="banner-logo" />
+            <div class="banner-copy">
+                <header class="major">
+                    <h1>{{ page.landing-title }}</h1>
+                </header>
+                <div class="content">
+                    <p style="text-transform: uppercase;">{{ site.description }}</p>
+                    <ul class="actions">
+                        <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>

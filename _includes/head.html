@@ -1,0 +1,68 @@
+<head>
+	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="icon" type="image/png" href="{{ "assets/images/favicon.png" | relative_url }}" />
+	<link rel="apple-touch-icon" href="{{ "assets/images/favicon.png" | relative_url }}" />
+	<!--[if lte IE 8]><script src="{{ "assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
+	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
+	<style>
+		#header .logo { display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; padding: 0 1.25em; }
+		#header .logo .logo-img {
+			height: 2.4em;
+			width: 2.4em;
+			object-fit: cover;
+			border-radius: 50%;
+			background: #fff;
+			margin-right: .6em;
+			vertical-align: middle;
+		}
+		#header .logo .logo-text { display: inline-block; letter-spacing: .2em; }
+		@media screen and (max-width: 480px) {
+			#header .logo .logo-text { display: none; }
+		}
+		#banner .banner-layout {
+			display: -webkit-flex;
+			display: flex;
+			-webkit-align-items: center;
+			align-items: center;
+			-webkit-flex-wrap: wrap;
+			flex-wrap: wrap;
+		}
+		#banner .banner-logo {
+			-webkit-flex: 0 0 auto;
+			flex: 0 0 auto;
+			width: 16em;
+			max-width: 40vw;
+			height: auto;
+			margin: 0 2.5em 0 0;
+			border-radius: 1em;
+			background: #fff;
+			box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.25);
+		}
+		#banner .banner-copy {
+			-webkit-flex: 1 1 22em;
+			flex: 1 1 22em;
+			min-width: 0;
+		}
+		/* Stack logo above copy on narrow screens */
+		@media screen and (max-width: 736px) {
+			#banner .banner-layout {
+				-webkit-flex-direction: column;
+				flex-direction: column;
+				-webkit-align-items: flex-start;
+				align-items: flex-start;
+			}
+			#banner .banner-logo {
+				width: 11em;
+				max-width: 60vw;
+				margin: 0 0 1.5em 0;
+			}
+			#banner .banner-copy { -webkit-flex: 1 1 auto; flex: 1 1 auto; width: 100%; }
+		}
+		/* Header logo is redundant on the homepage banner */
+		body.is-home #header .logo .logo-img { display: none; }
+	</style>
+</head>
