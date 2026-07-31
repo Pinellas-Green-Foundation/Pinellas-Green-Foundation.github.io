@@ -9,6 +9,10 @@ show_tile: true
 
 There are many ways to support the Pinellas Green Foundation and contribute to a greener future for our community.
 
+## Apply for a Grant
+
+Low-income households, nonprofits, faith-based organizations, and community groups can apply for funding through our Community Clean Energy Grant Program. [Apply for a grant](/apply) to lower energy costs, improve resilience, and transition away from fossil fuels.
+
 ## Partner With Us
 
 If your organization is interested in implementing green energy solutions, we'd love to hear from you. Whether you're a church, community center, or local business, we can help you explore sustainable options.

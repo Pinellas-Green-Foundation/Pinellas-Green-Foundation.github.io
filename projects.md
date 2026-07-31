@@ -19,4 +19,4 @@ This electric vehicle charging station at Trinity Presbyterian Church in Largo, 
 
 ## Get Involved
 
-We are actively developing partnerships to expand green energy access throughout Pinellas County. If your organization is interested in sustainable initiatives, [contact us](/contact) to learn how we can help.
+We are actively developing partnerships to expand green energy access throughout Pinellas County. If your organization is interested in sustainable initiatives, [contact us](/contact) or [apply for a grant](/apply) through our Community Clean Energy Grant Program.
